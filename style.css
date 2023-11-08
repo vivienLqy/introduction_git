@@ -53,5 +53,14 @@ nav{
     margin-left: 20px;
     margin-right: none;
     color: #FFFFFF;
-
+}
+.baniere{
+    background: url("img/div.header-bg.png"), lightgray 0px -284px / 100% 210.938% no-repeat;
+    width: 100%;
+    height: 512px;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
 }
