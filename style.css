@@ -3,18 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
-.head{
+body{
+    height: 400vh;
+}
+navbar {
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+.moi{
+    margin-top: 10px;
+    font-weight: bold;
 }
 .nav{
     flex-direction: row;
     width: 100px;
     height: 10px;
     justify-content: center;
+    margin-top: 10px;
 }
-.banniere{
-    width: 100%;
+.baniere{
+    background: no-repeat center url("img/banniere.jpg");
+    background-size: cover;
+    height: 100vh;
 }
 .contact{
     margin-left: 25px;
