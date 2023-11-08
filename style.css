@@ -3,21 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
-.parent{
-    position: relative;
+.head{
+    display: flex;
+    justify-content: space-between;
 }
-.box{
-    height: 80px;
-    width: 80px;
-    background: blue;
-    border-radius: 50%;
+.nav{
+    flex-direction: row;
+    width: 100px;
+    height: 10px;
+    justify-content: center;
 }
-#checkbox,
-.box{
-    position: absolute;
-    top: 0;
-    left: 0;
+.banniere{
+    width: 100%;
 }
-#checkbox:checked ~ .box{
-    background: red;
+.contact{
+    margin-left: 25px;
+}
+.work{
+    margin-left: 25px;
+}
+.sun{
+    width: 50px;
+    height: 50px;
 }
