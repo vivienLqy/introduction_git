@@ -64,3 +64,51 @@ nav{
     align-items: center;
     justify-content: center;
 }
+article{
+    margin: 0 162px;
+    padding: 72px 36px;
+}
+article h1{
+    font-weight: 600;
+    font-size: 35px;
+}
+.title{
+    margin: 0px 0px 30px
+}
+.source_article{
+    color: #777777A6;
+    font-weight: 500;
+    font-size: 12px;
+}
+p{
+    margin: 18px 0px 0px ;
+}
+.post_info strong{
+    color: #141618;
+}
+.post_info{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 26.25px;
+    color: #777777;
+}
+blockquote{
+    border-left: 2px solid #FFA500;
+    margin: 36px 0px;
+    padding: 0px 0px 0px 36px ;
+    line-height: 26.25px;
+    
+}
+blockquote p{
+    margin: 0px;
+}
+iframe{
+    width: 1128px;
+    height: 473px;
+}
+.post_end{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 26.25px;
+    color: #777777;
+}
