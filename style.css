@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    /* border: 1px red solid; */
 }
 body{
     height: 400vh;
@@ -75,6 +76,9 @@ article h1{
 .title{
     margin: 0px 0px 30px
 }
+p strong{
+    font-style: italic;
+}
 .source_article{
     color: #777777A6;
     font-weight: 500;
@@ -91,6 +95,9 @@ p{
     font-size: 15px;
     line-height: 26.25px;
     color: #777777;
+}
+span{
+    margin: 0 14px;
 }
 blockquote{
     border-left: 2px solid #FFA500;
@@ -111,4 +118,28 @@ iframe{
     font-size: 15px;
     line-height: 26.25px;
     color: #777777;
+}
+.source a{
+    height: 17px;
+    width: 64.39px;
+    justify-content: flex-end;
+    color: #FFA500;
+    font-weight: 600;
+    height: 17px;
+    width: 64.39px;
+    text-decoration: none;
+}
+.source{
+    display: flex;
+    justify-content: flex-end;
+}
+.source span{
+    color: #141618;
+    margin: 0px;
+}
+.ciao{
+    font-style: italic;
+}
+b:hover{
+    color: #FFA500;
 }
